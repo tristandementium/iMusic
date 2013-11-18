@@ -22,6 +22,18 @@
 		EA35719F183A23AC00F98AE0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA357183183A23AC00F98AE0 /* CoreData.framework */; };
 		EA3571A7183A23AC00F98AE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA3571A5183A23AC00F98AE0 /* InfoPlist.strings */; };
 		EA3571A9183A23AC00F98AE0 /* iMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3571A8183A23AC00F98AE0 /* iMusicTests.m */; };
+		EA3571B4183A242200F98AE0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3571B3183A242200F98AE0 /* MainViewController.m */; };
+		EA3571B5183A242200F98AE0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3571B3183A242200F98AE0 /* MainViewController.m */; };
+		EA3571B7183A247E00F98AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3571B6183A247E00F98AE0 /* Main.storyboard */; };
+		EA3571B8183A247E00F98AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3571B6183A247E00F98AE0 /* Main.storyboard */; };
+		EA3571BB183A2A8D00F98AE0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3571BA183A2A8D00F98AE0 /* AboutViewController.m */; };
+		EA3571BC183A2A8D00F98AE0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3571BA183A2A8D00F98AE0 /* AboutViewController.m */; };
+		EA3571C1183A71EA00F98AE0 /* Dolphin-Picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3571BE183A71EA00F98AE0 /* Dolphin-Picture.jpg */; };
+		EA3571C2183A71EA00F98AE0 /* Dolphin-Picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3571BE183A71EA00F98AE0 /* Dolphin-Picture.jpg */; };
+		EA3571C3183A71EA00F98AE0 /* IMG_6954-1024x682.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3571BF183A71EA00F98AE0 /* IMG_6954-1024x682.jpg */; };
+		EA3571C4183A71EA00F98AE0 /* IMG_6954-1024x682.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3571BF183A71EA00F98AE0 /* IMG_6954-1024x682.jpg */; };
+		EA3571C5183A71EA00F98AE0 /* supernovamsi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3571C0183A71EA00F98AE0 /* supernovamsi.jpg */; };
+		EA3571C6183A71EA00F98AE0 /* supernovamsi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA3571C0183A71EA00F98AE0 /* supernovamsi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,14 @@
 		EA3571A4183A23AC00F98AE0 /* iMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMusicTests-Info.plist"; sourceTree = "<group>"; };
 		EA3571A6183A23AC00F98AE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EA3571A8183A23AC00F98AE0 /* iMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMusicTests.m; sourceTree = "<group>"; };
+		EA3571B2183A242200F98AE0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EA3571B3183A242200F98AE0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EA3571B6183A247E00F98AE0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EA3571B9183A2A8D00F98AE0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		EA3571BA183A2A8D00F98AE0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		EA3571BE183A71EA00F98AE0 /* Dolphin-Picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dolphin-Picture.jpg"; sourceTree = "<group>"; };
+		EA3571BF183A71EA00F98AE0 /* IMG_6954-1024x682.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_6954-1024x682.jpg"; sourceTree = "<group>"; };
+		EA3571C0183A71EA00F98AE0 /* supernovamsi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = supernovamsi.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +104,7 @@
 		EA357171183A23AC00F98AE0 = {
 			isa = PBXGroup;
 			children = (
+				EA3571BD183A71D100F98AE0 /* images */,
 				EA357185183A23AC00F98AE0 /* iMusic */,
 				EA3571A2183A23AC00F98AE0 /* iMusicTests */,
 				EA35717C183A23AC00F98AE0 /* Frameworks */,
@@ -115,8 +136,13 @@
 		EA357185183A23AC00F98AE0 /* iMusic */ = {
 			isa = PBXGroup;
 			children = (
+				EA3571B6183A247E00F98AE0 /* Main.storyboard */,
 				EA35718E183A23AC00F98AE0 /* AppDelegate.h */,
 				EA35718F183A23AC00F98AE0 /* AppDelegate.m */,
+				EA3571B2183A242200F98AE0 /* MainViewController.h */,
+				EA3571B3183A242200F98AE0 /* MainViewController.m */,
+				EA3571B9183A2A8D00F98AE0 /* AboutViewController.h */,
+				EA3571BA183A2A8D00F98AE0 /* AboutViewController.m */,
 				EA357194183A23AC00F98AE0 /* Images.xcassets */,
 				EA357191183A23AC00F98AE0 /* iMusic.xcdatamodeld */,
 				EA357186183A23AC00F98AE0 /* Supporting Files */,
@@ -151,6 +177,16 @@
 				EA3571A5183A23AC00F98AE0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA3571BD183A71D100F98AE0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EA3571BE183A71EA00F98AE0 /* Dolphin-Picture.jpg */,
+				EA3571BF183A71EA00F98AE0 /* IMG_6954-1024x682.jpg */,
+				EA3571C0183A71EA00F98AE0 /* supernovamsi.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +264,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3571B7183A247E00F98AE0 /* Main.storyboard in Resources */,
+				EA3571C5183A71EA00F98AE0 /* supernovamsi.jpg in Resources */,
+				EA3571C1183A71EA00F98AE0 /* Dolphin-Picture.jpg in Resources */,
+				EA3571C3183A71EA00F98AE0 /* IMG_6954-1024x682.jpg in Resources */,
 				EA35718A183A23AC00F98AE0 /* InfoPlist.strings in Resources */,
 				EA357195183A23AC00F98AE0 /* Images.xcassets in Resources */,
 			);
@@ -237,7 +277,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3571C4183A71EA00F98AE0 /* IMG_6954-1024x682.jpg in Resources */,
 				EA3571A7183A23AC00F98AE0 /* InfoPlist.strings in Resources */,
+				EA3571B8183A247E00F98AE0 /* Main.storyboard in Resources */,
+				EA3571C2183A71EA00F98AE0 /* Dolphin-Picture.jpg in Resources */,
+				EA3571C6183A71EA00F98AE0 /* supernovamsi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +294,9 @@
 			files = (
 				EA357190183A23AC00F98AE0 /* AppDelegate.m in Sources */,
 				EA357193183A23AC00F98AE0 /* iMusic.xcdatamodeld in Sources */,
+				EA3571BB183A2A8D00F98AE0 /* AboutViewController.m in Sources */,
 				EA35718C183A23AC00F98AE0 /* main.m in Sources */,
+				EA3571B4183A242200F98AE0 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3571BC183A2A8D00F98AE0 /* AboutViewController.m in Sources */,
 				EA3571A9183A23AC00F98AE0 /* iMusicTests.m in Sources */,
+				EA3571B5183A242200F98AE0 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
